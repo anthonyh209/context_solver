@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+
+multi_dicts = [{"key1": 1, "key2": 2, "key3": 3}, {"key1": 4, "key2": 8, "key4": 1}]
+result = [single.get("key2", 0) for single in multi_dicts]
+print(result)
